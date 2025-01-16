@@ -16,6 +16,7 @@
         const tg = window.Telegram.WebApp;
 
         tg.ready();  // Инициализация Web App SDK
+        tg.getAvailableGifts();
         console.log(tg);
         // Функция для загрузки подарков
         function loadGifts() {
